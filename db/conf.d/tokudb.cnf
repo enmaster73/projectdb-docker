@@ -1,0 +1,4 @@
+[mysqld]
+plugin-load=ha_tokudb
+plugin-dir=/usr/lib/mysql/plugin
+default-storage-engine=tokudb
